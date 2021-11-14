@@ -116,14 +116,12 @@ getWeatherData1()
 function getWeatherData1 () {
         var city1 = {!! json_encode($city) !!};
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city1}&appid=${API_KEY}`).then(res => res.json()).then(data => {
-        console.log(data);
         timezone.innerHTML = data.name + ', ' + data.sys.country;
         getWeatherData(data);
     })
 }
 function getWeatherData (data) {
         fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${data.coord.lat}&lon=${data.coord.lon}&exclude=hourly,minutely&units=metric&appid=${API_KEY}`).then(res => res.json()).then(data => {
-
         console.log(data)
         showWeatherData(data);
     })
@@ -133,7 +131,6 @@ function getWeatherData (data) {
 
 function showWeatherData (data){
     let {humidity, pressure, sunrise, sunset, wind_speed} = data.current;
-
     countryEl.innerHTML = data.lat + 'N ' + data.lon+'E'
 
     currentWeatherItemsEl.innerHTML = 
