@@ -13,7 +13,9 @@ class CityController extends Controller
         $path = base_path('data.json');
         $url = 'https://api.openweathermap.org/data/2.5/weather?q=' . $city . '&appid=c05deb87eec71a176c0f1a51024a6933';
         $response = file_get_contents($url);
-        file_put_contents($path, $response);
+        $returnedFile = file_get_contents($path);
+        $finalFile = $returnedFile . "\n" . $response;
+        file_put_contents($path, $finalFile);
         return view('city', ['city' => $city]);
     }
 
