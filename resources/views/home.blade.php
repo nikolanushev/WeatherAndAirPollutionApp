@@ -21,6 +21,14 @@
                             <option value="Veles">Veles</option>
                             <option value="Delcevo">Delcevo</option>
                             <option value="Struga">Struga</option>
+                            <option value="Kratovo">Kratovo</option>
+                            <option value="Kriva Palanka">Kriva Palanka</option>
+                            <option value="Kumanovo">Kumanovo</option>
+                            <option value="Resen">Resen</option>
+                            <option value="Makedonski Brod">Makedonski Brod</option>
+                            <option value="Novo Selo">Novo Selo</option>
+                            <option value="Kavadarci">Kavadarci</option>
+                            <option value="Mavrovo">Mavrovo</option>
                         </select>
                     </div>
                     <input type="submit" class="mr-10" value="Search">
