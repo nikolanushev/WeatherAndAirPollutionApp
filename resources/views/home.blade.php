@@ -29,6 +29,12 @@
                             <option value="Novo Selo">Novo Selo</option>
                             <option value="Kavadarci">Kavadarci</option>
                             <option value="Mavrovo">Mavrovo</option>
+                            <option value="Centar Zupa">Centar Zupa</option>
+                            <option value="Vevcani">Vevcani</option>
+                            <option value="Debarca">Debarca</option>
+                            <option value="Saraj">Saraj</option>
+                            <option value="Sopiste">Sopiste</option>
+                            <option value="Studenican">Studenican</option>
                         </select>
                     </div>
                     <input type="submit" class="mr-10" value="Search">
