@@ -34,7 +34,7 @@
                             <option value="Debarca">Debarca</option>
                             <option value="Saraj">Saraj</option>
                             <option value="Sopiste">Sopiste</option>
-                            <option value="Studenican">Studenican</option>
+                            <option value="Studenicani">Studenicani</option>
                         </select>
                     </div>
                     <input type="submit" class="mr-10" value="Search">
