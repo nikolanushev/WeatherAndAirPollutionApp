@@ -15,6 +15,10 @@
                             <option value="Skopje">Skopje</option>
                             <option value="Ohrid">Ohrid</option>
                             <option value="Tetovo">Tetovo</option>
+                            <option value="Tetovo">Gostivar</option>
+                            <option value="Tetovo">Bitola</option>
+                            <option value="Tetovo">Prilep</option>
+                            <option value="Tetovo">Veles</option>
                         </select>
                     </div>
                     <input type="submit" class="mr-10" value="Search">
