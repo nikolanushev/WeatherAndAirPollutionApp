@@ -5,7 +5,7 @@
             <div class="cover col-lg-8 mx-auto">
                 {{-- <a href=""><img src="https://i.ibb.co/PGFGwZ9/123.jpg" style="margin-left: auto; margin-right: auto; display: block;" /></a> --}}
                 <h1 style="text-align: center;">Weather in North Macedonia</h1>
-                <form method="get" action="{{ route('search') }}"  class="flex-form" style="width: 430px; margin-left: auto; margin-right: auto; margin-top: 30px;">
+                <form method="get" action="{{ route('search') }}"  class="flex-form mt-5" style="width: 430px; margin-left: auto; margin-right: auto; margin-top: 30px;">
                     <label for="from">
                         <span class="iconify" data-icon="ion-location" data-inline="false"></span>
                     </label>
@@ -19,6 +19,8 @@
                     </div>
                     <input type="submit" class="mr-10" value="Search">
                 </form>
+                <p style="text-align: center;" class="mt-5">
+                <a class="pollution" href="/pollution">Air Pollution</a></p>
                 <svg baseprofile="tiny" style="margin-top: 50px;" stroke-linecap="round"  stroke-linejoin="round" version="1.2" viewbox="0 0 1000 791" xmlns="http://www.w3.org/2000/svg">
                   <a xlink:title="Resen" xlink:href="/weather?city=Resen">
                   <path d="M255 650.4l-0.2 2.9 3.6 3.9 0.8 4.7-0.8 5.9-3.9 6.6-3.8 3.6-3.3 2.3-1.5 5.1 0 5.9 2.7 3.1 6.8 1.2 1.7 1.4 0 4.7 1 4.4 1.9 3.8 3.3 3.4 2.6 3.2 0.9 3.1 0 4.1 2.9 2.5 4.2 0 6.6-0.3 5.4 0 5.3 2.8 4.2 5.9 1.7 3.5 0 4 4 1.3 4 0 5.4 0.3 2.1 1.6 1.7 6.6-0.5 6.5 4.1 2.5 0.9 2.5-0.5 3.5-1.4 3.1-0.9 5.6-1.5 6-0.4 0.7-1.2 3.6-14.3-3-10.2-0.6-25.3 7.7 0.8-3.5-6.7-24.8-3.7-7.4-5.5-22.7-2.2-2.4-2.8-0.6-2.1-1.4-1-4.5-5.3-8.7-1-2.4-1.8-1.4-2.3-0.3-2.8 0.6 2.5 1.1-0.1 2.4-17.3-6.2-8.3-0.6-7.8 5.2-11.4 12.4-3.4 6.5 0.4 7.5 3.8 5.9 4.1 1.7 5.2-0.6 10.4 9.2 4.2 1.4 2.2 5.1-5.6 9.3-4.1 2.1-1.1-3.2-6.5-6.4-19.4-5.7-20.5-3-0.4 0.1-1.2-6.6 0-10.7 1.5-6.8 1.9-6 4.4-3.4 9.9-1 3.1-3.4 0.7-5.7 0-4.7-2.1-5-2.1-2.5-0.2-7.5 1.9-1.9 3.3-1.6 0.4-4 0-5.4 0.3-6.9 1.9-11 2.8-8.1 3.8-4.7 4-5.4 4.5-4.4 8.9-5.3 6.7-4.1 8-4.4 8.3-6.3 4.7-5.3 3.5-6.7 0.5-0.9 1.2 4.4 2.6 3.2 3.5 0 3.8 0.3 1.7 4.1 1.9 10.7 0 6.6 2.1 8.1 5.2 8z" id="MKD2894" name="Resen">
